@@ -1,0 +1,32 @@
+//
+//  toolsCommands.pch
+//  afx_Mjjoc
+//
+//  Created by majunjie on 16/6/9.
+//  Copyright © 2016年 majunjie. All rights reserved.
+//
+
+#ifndef toolsCommands_pch
+#define toolsCommands_pch
+#import "RunTimeManage.h"
+#import "Masonry.h"
+#import "FMDBManage.h"
+// Include any system framsework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//屏幕的宽高
+#define SCREEN_WIDTH [[UIScreen mainScreen]bounds].size.width
+#define SCREEN_HEIGHT [[UIScreen mainScreen]bounds].size.height
+
+
+//关于地步选项卡的配置
+#define TabBarCount 5
+#define TabbarVC @"vc"
+#define TabbarTitle @"title"
+#define TabbarImage @"image"
+#define TabbarSelectedImage @"selectedImage"
+#define TabbarItemBadgeValue @"badgeValue"
+#define HOMETTABAR_color [UIColor colorWithRed:(230/ 255.0) green:(140/ 255.0) blue:(20 / 255.0) alpha:1]
+#define TABELVIEWBG_color [UIColor colorWithRed:(238/ 255.0) green:(238/ 255.0) blue:(238 / 255.0) alpha:1]
+
+#endif /* toolsCommands_pch */

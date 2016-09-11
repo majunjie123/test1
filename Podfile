@@ -1,0 +1,7 @@
+pod 'AFNetworking', '~> 3.1.0'
+pod 'Masonry', '~> 1.0.1'
+pod 'SVProgressHUD', '~> 2.0.3'
+pod 'FMDB', '~> 2.6.2'
+pod 'IQKeyboardManager'
+pod 'SDWebImage', '~> 3.7.5'
+pod 'MJRefresh', '~> 3.1.0'
